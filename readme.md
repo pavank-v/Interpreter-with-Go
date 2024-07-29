@@ -16,7 +16,7 @@ A simple interpreter written in Go.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/go-interpreter.git
+    git clone https://github.com/pavank1301/Interpreter-with-Go
     ```
 
 2. Navigate to the project directory:
@@ -33,7 +33,7 @@ A simple interpreter written in Go.
 
 ## Usage
 
-you can run the interpreter:
+You can run the interpreter from the command line:
 
 ```bash
 ./Prism
