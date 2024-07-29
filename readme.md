@@ -4,9 +4,9 @@ A simple interpreter written in Go.
 
 ## Features
 
+- Variable assignments
 - Basic arithmetic operations
 - Strings
-- Variable assignments
 - Conditional statements
 - Arrays
 - Hash Maps
