@@ -100,8 +100,7 @@ Thorsten
 
 ## Built-in Functions for Arrays
 
-```
-bash
+```bash
 > let arr = [1, 2, 3, 4];
 > len(arr);
 4
@@ -115,8 +114,7 @@ bash
 
 ## Variable Assignments
 
-```
-bash
+```bash
 > let x = 10;
 > x = x + 5;
 > x;
@@ -125,8 +123,7 @@ bash
 
 ## Conditional Statements
 
-```
-bash
+```bash
 > let num = 10;
 > if (num > 5) { "Greater"; } else { "Smaller"; }
 "Greater"
@@ -134,8 +131,7 @@ bash
 
 ## Functions and Higher-Order Functions
 
-```
-bash
+```bash
 > let add = fn(a, b) { a + b };
 > add(5, 10);
 15
@@ -146,8 +142,7 @@ bash
 
 ## Closures
 
-```
-bash
+```bash
 > let newAdder = fn(x) { fn(y) { x + y } };
 > let addFive = newAdder(5);
 > addFive(10);
