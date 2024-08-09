@@ -61,6 +61,7 @@ Thorsten
 ```
 
 # Supported Operations
+
 ## Arithmetic
 
 ```bash
@@ -75,6 +76,7 @@ Thorsten
 ```
 
 ## Strings
+
 ```bash
 > let str = "Hello, ";
 > let name = "World";
