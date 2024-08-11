@@ -41,7 +41,6 @@ You can run the interpreter from the command line:
 ./Prism
 ```
 
-
 ## Example
 
 ```bash
@@ -60,9 +59,9 @@ Thorsten
 "John Doe"
 ```
 
-# Supported Operations
+## Supported Operations
 
-## Arithmetic
+### Arithmetic
 
 ```bash
 > let a = 5;
@@ -75,7 +74,7 @@ Thorsten
 2
 ```
 
-## Strings
+### Strings
 
 ```bash
 > let str = "Hello, ";
@@ -84,7 +83,7 @@ Thorsten
 "Hello, World"
 ```
 
-## Arrays
+### Arrays
 
 ```bash
 > let arr = [1, 2, 3, 4];
@@ -92,7 +91,7 @@ Thorsten
 3
 ```
 
-## Hash Maps
+### Hash Maps
 
 ```bash
 > let hash = {"key1": "value1", "key2": "value2"};
@@ -100,7 +99,7 @@ Thorsten
 "value1"
 ```
 
-## Built-in Functions for Arrays
+### Built-in Functions for Arrays
 
 ```bash
 > let arr = [1, 2, 3, 4];
@@ -114,7 +113,7 @@ Thorsten
 [2, 3, 4]
 ```
 
-## Variable Assignments
+### Variable Assignments
 
 ```bash
 > let x = 10;
@@ -123,7 +122,7 @@ Thorsten
 15
 ```
 
-## Conditional Statements
+### Conditional Statements
 
 ```bash
 > let num = 10;
@@ -131,7 +130,7 @@ Thorsten
 "Greater"
 ```
 
-## Functions and Higher-Order Functions
+### Functions and Higher-Order Functions
 
 ```bash
 > let add = fn(a, b) { a + b };
@@ -142,7 +141,7 @@ Thorsten
 25
 ```
 
-## Closures
+### Closures
 
 ```bash
 > let newAdder = fn(x) { fn(y) { x + y } };
@@ -151,7 +150,7 @@ Thorsten
 15
 ```
 
-# Project Structure
+## Project Structure
 
 - main.go: Entry point of the interpreter.
 - lexer/: Contains the lexical analyzer for the interpreter.
@@ -160,7 +159,6 @@ Thorsten
 - ast/: Abstract Syntax Tree representation.
 - object/: Object system for the interpreter.
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
-  
