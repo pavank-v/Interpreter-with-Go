@@ -146,8 +146,8 @@ Thorsten
 ```bash
 > let newAdder = fn(x) { fn(y) { x + y } };
 > let addFive = newAdder(5);
-> addFive(10);
-15
+> addFive(20);
+25
 ```
 
 ## Project Structure
