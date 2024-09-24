@@ -64,14 +64,14 @@ Thorsten
 ### Arithmetic
 
 ```bash
-> let a = 5;
+> let a = 2;
 > let b = 10;
 > a + b;
-15
+12
 > a * b;
-50
+20
 > b / a;
-2
+5
 ```
 
 ### Strings
