@@ -54,7 +54,7 @@ Alice
 > let myArray = ["Thorsten", "Ball", 28, fn(x) { x * x }];
 > myArray[0];
 Thorsten
-> let fullName = fn(first, last) { first + " " + last };
+> let fullName = fn(f, l) { f + " " + l };
 > fullName("John", "Doe");
 "John Doe"
 ```
